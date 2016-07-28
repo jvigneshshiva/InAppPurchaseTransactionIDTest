@@ -12,6 +12,7 @@
 		2FCB5A951D4A211600C5E12E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCB5A931D4A211600C5E12E /* Main.storyboard */; };
 		2FCB5A971D4A211600C5E12E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCB5A961D4A211600C5E12E /* Assets.xcassets */; };
 		2FCB5A9A1D4A211600C5E12E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FCB5A981D4A211600C5E12E /* LaunchScreen.storyboard */; };
+		2FCB5AA21D4A21B300C5E12E /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB5AA11D4A21B300C5E12E /* StoreKitManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2FCB5A961D4A211600C5E12E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FCB5A991D4A211600C5E12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FCB5A9B1D4A211600C5E12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCB5AA11D4A21B300C5E12E /* StoreKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2FCB5A8F1D4A211600C5E12E /* AppDelegate.swift */,
 				2FCB5A911D4A211600C5E12E /* ViewController.swift */,
+				2FCB5AA11D4A21B300C5E12E /* StoreKitManager.swift */,
 				2FCB5A931D4A211600C5E12E /* Main.storyboard */,
 				2FCB5A961D4A211600C5E12E /* Assets.xcassets */,
 				2FCB5A981D4A211600C5E12E /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FCB5AA21D4A21B300C5E12E /* StoreKitManager.swift in Sources */,
 				2FCB5A921D4A211600C5E12E /* ViewController.swift in Sources */,
 				2FCB5A901D4A211600C5E12E /* AppDelegate.swift in Sources */,
 			);
@@ -253,7 +257,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InAppPurchaseTransactionTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.InAppPurchaseTransactionTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.care.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -264,7 +268,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InAppPurchaseTransactionTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.vignesh.InAppPurchaseTransactionTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.care.iphone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
